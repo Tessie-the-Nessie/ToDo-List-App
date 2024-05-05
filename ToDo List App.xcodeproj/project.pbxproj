@@ -14,6 +14,7 @@
 		BD8FB0422BE7F705008E1B35 /* ToDo_List_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FB0412BE7F705008E1B35 /* ToDo_List_AppTests.swift */; };
 		BD8FB04C2BE7F705008E1B35 /* ToDo_List_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FB04B2BE7F705008E1B35 /* ToDo_List_AppUITests.swift */; };
 		BD8FB04E2BE7F705008E1B35 /* ToDo_List_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8FB04D2BE7F705008E1B35 /* ToDo_List_AppUITestsLaunchTests.swift */; };
+		BDACF4B42BE7FC2300779C66 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDACF4B32BE7FC2300779C66 /* NewToDoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BD8FB0472BE7F705008E1B35 /* ToDo List AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ToDo List AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD8FB04B2BE7F705008E1B35 /* ToDo_List_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_List_AppUITests.swift; sourceTree = "<group>"; };
 		BD8FB04D2BE7F705008E1B35 /* ToDo_List_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo_List_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDACF4B32BE7FC2300779C66 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				BD8FB0302BE7F703008E1B35 /* ToDo_List_AppApp.swift */,
 				BD8FB0322BE7F703008E1B35 /* ContentView.swift */,
+				BDACF4B32BE7FC2300779C66 /* NewToDoView.swift */,
 				BD8FB0342BE7F704008E1B35 /* Assets.xcassets */,
 				BD8FB0362BE7F704008E1B35 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDACF4B42BE7FC2300779C66 /* NewToDoView.swift in Sources */,
 				BD8FB0332BE7F703008E1B35 /* ContentView.swift in Sources */,
 				BD8FB0312BE7F703008E1B35 /* ToDo_List_AppApp.swift in Sources */,
 			);
